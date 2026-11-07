@@ -1,0 +1,566 @@
+{
+  "nodes": [
+    {
+      "id": "U01",
+      "label": "Asha (employee)",
+      "type": "user",
+      "criticality": "low",
+      "description": "Standard employee identity"
+    },
+    {
+      "id": "D01",
+      "label": "Laptop-07",
+      "type": "device",
+      "criticality": "medium",
+      "description": "Employee endpoint; simulated compromise indicator"
+    },
+    {
+      "id": "S01",
+      "label": "File Server",
+      "type": "server",
+      "criticality": "high",
+      "description": "Internal file server"
+    },
+    {
+      "id": "S02",
+      "label": "App Server",
+      "type": "server",
+      "criticality": "medium",
+      "description": "Internal application server"
+    },
+    {
+      "id": "U02",
+      "label": "Admin Account",
+      "type": "user",
+      "criticality": "high",
+      "description": "Privileged identity"
+    },
+    {
+      "id": "A01",
+      "label": "Payroll App",
+      "type": "application",
+      "criticality": "high",
+      "description": "Business-critical application"
+    },
+    {
+      "id": "DB01",
+      "label": "Payroll DB",
+      "type": "database",
+      "criticality": "critical",
+      "description": "Sensitive payroll database"
+    },
+    {
+      "id": "D02",
+      "label": "Laptop-12",
+      "type": "device",
+      "criticality": "low",
+      "description": "Another employee endpoint"
+    },
+    {
+      "id": "S03",
+      "label": "Print Server",
+      "type": "server",
+      "criticality": "low",
+      "description": "Low-criticality service"
+    },
+    {
+      "id": "IP01",
+      "label": "External IP",
+      "type": "ip",
+      "criticality": "medium",
+      "description": "External network source"
+    },
+    {
+      "id": "U03",
+      "label": "Ravi (employee)",
+      "type": "user",
+      "criticality": "low",
+      "description": "Finance team employee"
+    },
+    {
+      "id": "U04",
+      "label": "Priya (employee)",
+      "type": "user",
+      "criticality": "medium",
+      "description": "HR analyst"
+    },
+    {
+      "id": "U05",
+      "label": "Service Account",
+      "type": "user",
+      "criticality": "high",
+      "description": "Automated service identity"
+    },
+    {
+      "id": "D03",
+      "label": "Laptop-03",
+      "type": "device",
+      "criticality": "medium",
+      "description": "Finance laptop"
+    },
+    {
+      "id": "D04",
+      "label": "Workstation-09",
+      "type": "device",
+      "criticality": "low",
+      "description": "Shared workstation"
+    },
+    {
+      "id": "S04",
+      "label": "Domain Controller",
+      "type": "server",
+      "criticality": "critical",
+      "description": "Active Directory domain controller"
+    },
+    {
+      "id": "S05",
+      "label": "Email Server",
+      "type": "server",
+      "criticality": "high",
+      "description": "Internal mail server"
+    },
+    {
+      "id": "S06",
+      "label": "Backup Server",
+      "type": "server",
+      "criticality": "high",
+      "description": "Backup and recovery system"
+    },
+    {
+      "id": "S07",
+      "label": "VPN Gateway",
+      "type": "server",
+      "criticality": "high",
+      "description": "Remote access gateway"
+    },
+    {
+      "id": "A02",
+      "label": "HR Portal",
+      "type": "application",
+      "criticality": "high",
+      "description": "Human resources application"
+    },
+    {
+      "id": "A03",
+      "label": "Email App",
+      "type": "application",
+      "criticality": "medium",
+      "description": "Webmail interface"
+    },
+    {
+      "id": "A04",
+      "label": "File Share App",
+      "type": "application",
+      "criticality": "medium",
+      "description": "Document management"
+    },
+    {
+      "id": "DB02",
+      "label": "HR Database",
+      "type": "database",
+      "criticality": "critical",
+      "description": "Employee records database"
+    },
+    {
+      "id": "DB03",
+      "label": "Email Store",
+      "type": "database",
+      "criticality": "high",
+      "description": "Mailbox storage"
+    },
+    {
+      "id": "IP02",
+      "label": "External IP-2",
+      "type": "ip",
+      "criticality": "medium",
+      "description": "Second external source"
+    },
+    {
+      "id": "N01",
+      "label": "Finance Segment",
+      "type": "network",
+      "criticality": "high",
+      "description": "Finance network segment"
+    },
+    {
+      "id": "N02",
+      "label": "IT Segment",
+      "type": "network",
+      "criticality": "medium",
+      "description": "IT operations segment"
+    },
+    {
+      "id": "U06",
+      "label": "Contractor-01",
+      "type": "user",
+      "criticality": "medium",
+      "description": "Temporary contractor account"
+    },
+    {
+      "id": "D05",
+      "label": "Laptop-22",
+      "type": "device",
+      "criticality": "medium",
+      "description": "Contractor laptop"
+    },
+    {
+      "id": "S08",
+      "label": "Jump Host",
+      "type": "server",
+      "criticality": "high",
+      "description": "Privileged access jump server"
+    },
+    {
+      "id": "A05",
+      "label": "Monitoring Tool",
+      "type": "application",
+      "criticality": "medium",
+      "description": "SIEM-like monitoring console"
+    },
+    {
+      "id": "DB04",
+      "label": "Audit Log DB",
+      "type": "database",
+      "criticality": "high",
+      "description": "Centralized audit logs"
+    },
+    {
+      "id": "IP03",
+      "label": "Cloud IP",
+      "type": "ip",
+      "criticality": "low",
+      "description": "Cloud service endpoint"
+    },
+    {
+      "id": "U07",
+      "label": "Helpdesk Account",
+      "type": "user",
+      "criticality": "medium",
+      "description": "IT helpdesk identity"
+    },
+    {
+      "id": "D06",
+      "label": "Desktop-15",
+      "type": "device",
+      "criticality": "low",
+      "description": "Office desktop"
+    },
+    {
+      "id": "S09",
+      "label": "Web Proxy",
+      "type": "server",
+      "criticality": "medium",
+      "description": "Outbound web proxy"
+    },
+    {
+      "id": "A06",
+      "label": "Time Tracking",
+      "type": "application",
+      "criticality": "low",
+      "description": "Employee time system"
+    },
+    {
+      "id": "DB05",
+      "label": "Time DB",
+      "type": "database",
+      "criticality": "medium",
+      "description": "Time tracking database"
+    },
+    {
+      "id": "N03",
+      "label": "Guest Segment",
+      "type": "network",
+      "criticality": "low",
+      "description": "Guest network"
+    },
+    {
+      "id": "U08",
+      "label": "Auditor Account",
+      "type": "user",
+      "criticality": "high",
+      "description": "External auditor access"
+    }
+  ],
+  "edges": [
+    {
+      "source": "U01",
+      "target": "D01",
+      "relation": "uses",
+      "weight": 2,
+      "timestamp": "09:00"
+    },
+    {
+      "source": "D01",
+      "target": "S01",
+      "relation": "connects_to",
+      "weight": 5,
+      "timestamp": "09:18"
+    },
+    {
+      "source": "D01",
+      "target": "S02",
+      "relation": "connects_to",
+      "weight": 4,
+      "timestamp": "09:25"
+    },
+    {
+      "source": "S01",
+      "target": "U02",
+      "relation": "admin_session",
+      "weight": 8,
+      "timestamp": "09:22"
+    },
+    {
+      "source": "S02",
+      "target": "A01",
+      "relation": "hosts",
+      "weight": 3,
+      "timestamp": "08:00"
+    },
+    {
+      "source": "U02",
+      "target": "A01",
+      "relation": "administers",
+      "weight": 9,
+      "timestamp": "09:26"
+    },
+    {
+      "source": "A01",
+      "target": "DB01",
+      "relation": "reads_from",
+      "weight": 7,
+      "timestamp": "09:28"
+    },
+    {
+      "source": "D02",
+      "target": "S03",
+      "relation": "connects_to",
+      "weight": 1,
+      "timestamp": "08:45"
+    },
+    {
+      "source": "IP01",
+      "target": "D01",
+      "relation": "network_event",
+      "weight": 6,
+      "timestamp": "09:14"
+    },
+    {
+      "source": "S03",
+      "target": "S02",
+      "relation": "shares_network",
+      "weight": 2,
+      "timestamp": "08:30"
+    },
+    {
+      "source": "U03",
+      "target": "D03",
+      "relation": "uses",
+      "weight": 2,
+      "timestamp": "09:05"
+    },
+    {
+      "source": "D03",
+      "target": "N01",
+      "relation": "connects_to",
+      "weight": 3,
+      "timestamp": "09:10"
+    },
+    {
+      "source": "N01",
+      "target": "S05",
+      "relation": "routes_to",
+      "weight": 4,
+      "timestamp": "09:12"
+    },
+    {
+      "source": "S05",
+      "target": "A03",
+      "relation": "hosts",
+      "weight": 3,
+      "timestamp": "08:00"
+    },
+    {
+      "source": "A03",
+      "target": "DB03",
+      "relation": "reads_from",
+      "weight": 5,
+      "timestamp": "09:15"
+    },
+    {
+      "source": "U04",
+      "target": "D04",
+      "relation": "uses",
+      "weight": 2,
+      "timestamp": "09:02"
+    },
+    {
+      "source": "D04",
+      "target": "A02",
+      "relation": "accesses",
+      "weight": 4,
+      "timestamp": "09:20"
+    },
+    {
+      "source": "A02",
+      "target": "DB02",
+      "relation": "reads_from",
+      "weight": 8,
+      "timestamp": "09:22"
+    },
+    {
+      "source": "U02",
+      "target": "S04",
+      "relation": "admin_session",
+      "weight": 9,
+      "timestamp": "09:30"
+    },
+    {
+      "source": "S04",
+      "target": "U05",
+      "relation": "manages",
+      "weight": 7,
+      "timestamp": "08:15"
+    },
+    {
+      "source": "U05",
+      "target": "S06",
+      "relation": "service_account",
+      "weight": 6,
+      "timestamp": "09:35"
+    },
+    {
+      "source": "S06",
+      "target": "DB01",
+      "relation": "backs_up",
+      "weight": 5,
+      "timestamp": "02:00"
+    },
+    {
+      "source": "S07",
+      "target": "N02",
+      "relation": "routes_to",
+      "weight": 4,
+      "timestamp": "09:08"
+    },
+    {
+      "source": "N02",
+      "target": "S08",
+      "relation": "routes_to",
+      "weight": 5,
+      "timestamp": "09:18"
+    },
+    {
+      "source": "S08",
+      "target": "U02",
+      "relation": "privileged_access",
+      "weight": 8,
+      "timestamp": "09:25"
+    },
+    {
+      "source": "IP02",
+      "target": "S07",
+      "relation": "network_event",
+      "weight": 5,
+      "timestamp": "09:12"
+    },
+    {
+      "source": "U06",
+      "target": "D05",
+      "relation": "uses",
+      "weight": 3,
+      "timestamp": "09:40"
+    },
+    {
+      "source": "D05",
+      "target": "S09",
+      "relation": "connects_to",
+      "weight": 4,
+      "timestamp": "09:42"
+    },
+    {
+      "source": "S09",
+      "target": "IP03",
+      "relation": "outbound",
+      "weight": 2,
+      "timestamp": "09:45"
+    },
+    {
+      "source": "A05",
+      "target": "DB04",
+      "relation": "writes_to",
+      "weight": 4,
+      "timestamp": "09:00"
+    },
+    {
+      "source": "S02",
+      "target": "A05",
+      "relation": "monitors",
+      "weight": 3,
+      "timestamp": "08:30"
+    },
+    {
+      "source": "U07",
+      "target": "D06",
+      "relation": "uses",
+      "weight": 2,
+      "timestamp": "09:03"
+    },
+    {
+      "source": "D06",
+      "target": "A06",
+      "relation": "accesses",
+      "weight": 2,
+      "timestamp": "09:10"
+    },
+    {
+      "source": "A06",
+      "target": "DB05",
+      "relation": "reads_from",
+      "weight": 3,
+      "timestamp": "09:12"
+    },
+    {
+      "source": "U08",
+      "target": "S04",
+      "relation": "audits",
+      "weight": 6,
+      "timestamp": "09:50"
+    },
+    {
+      "source": "N03",
+      "target": "S03",
+      "relation": "shares_network",
+      "weight": 1,
+      "timestamp": "08:20"
+    },
+    {
+      "source": "D01",
+      "target": "S09",
+      "relation": "connects_to",
+      "weight": 3,
+      "timestamp": "09:16"
+    },
+    {
+      "source": "S01",
+      "target": "A04",
+      "relation": "hosts",
+      "weight": 3,
+      "timestamp": "08:00"
+    },
+    {
+      "source": "A04",
+      "target": "DB02",
+      "relation": "reads_from",
+      "weight": 4,
+      "timestamp": "09:24"
+    },
+    {
+      "source": "U01",
+      "target": "A03",
+      "relation": "accesses",
+      "weight": 3,
+      "timestamp": "09:11"
+    }
+  ]
+}

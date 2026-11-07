@@ -1,0 +1,65 @@
+[
+  {
+    "id": "AL-101",
+    "time": "09:14",
+    "severity": "high",
+    "title": "Unusual external connection",
+    "description": "Laptop-07 contacted an unfamiliar external IP.",
+    "entities": ["IP01", "D01"],
+    "status": "Needs investigation"
+  },
+  {
+    "id": "AL-102",
+    "time": "09:18",
+    "severity": "medium",
+    "title": "New server connection",
+    "description": "Laptop-07 initiated a connection to the File Server.",
+    "entities": ["D01", "S01"],
+    "status": "Needs investigation"
+  },
+  {
+    "id": "AL-103",
+    "time": "09:22",
+    "severity": "high",
+    "title": "Privileged session observed",
+    "description": "A privileged account session is associated with the File Server.",
+    "entities": ["S01", "U02"],
+    "status": "Needs investigation"
+  },
+  {
+    "id": "AL-104",
+    "time": "09:26",
+    "severity": "critical",
+    "title": "Sensitive application access",
+    "description": "Admin Account has an administrative relationship with Payroll App.",
+    "entities": ["U02", "A01", "DB01"],
+    "status": "Needs investigation"
+  },
+  {
+    "id": "AL-105",
+    "time": "09:31",
+    "severity": "low",
+    "title": "Unusual application route",
+    "description": "Laptop-07 also connects to the App Server.",
+    "entities": ["D01", "S02", "A01"],
+    "status": "Needs investigation"
+  },
+  {
+    "id": "AL-106",
+    "time": "09:30",
+    "severity": "high",
+    "title": "Domain controller access",
+    "description": "Privileged account accessed Domain Controller.",
+    "entities": ["U02", "S04"],
+    "status": "Needs investigation"
+  },
+  {
+    "id": "AL-107",
+    "time": "09:12",
+    "severity": "medium",
+    "title": "VPN gateway activity",
+    "description": "External connection observed to VPN Gateway.",
+    "entities": ["IP02", "S07"],
+    "status": "Needs investigation"
+  }
+]
